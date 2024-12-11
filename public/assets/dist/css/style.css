@@ -1,0 +1,222 @@
+.custom-form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-clip: padding-box;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+.custom-side-nav {
+
+    background: #f4f6f9;
+}
+
+.custom-sidebar {
+    background: #00263e !important;
+}
+
+.get_hostory {
+    padding: 5px !important;
+    width: 65px;
+    height: 25px;
+    font-size: 12px !important;
+}
+
+.nav-item .active {
+    background: #345370 !important;
+}
+
+.custom-select {
+    -webkit-appearance: auto !important;
+}
+
+.text-right a {
+    border-color: #345370 !important;
+    background: #345370 !important;
+    color: #fff;
+}
+
+.history-model .modal-body {
+    max-height: 500px;
+    overflow: auto;
+}
+
+.paginate_button.active {
+
+    background: #345370 !important;
+
+}
+
+.page-item.active .page-link {
+
+    border-color: #345370 !important;
+    background: #345370 !important;
+}
+
+.breadcrumb li.breadcrumb-item a {
+
+    color: #345370 !important;
+}
+
+.accordion-item button.accordion-button {
+
+    background-color: #345370;
+    color: #fff;
+    font-weight: 500;
+}
+
+.accordion-item button.accordion-button:focus {
+
+    background-color: #345370;
+}
+
+.custom-side-nav-bar {
+
+    position: fixed !important;
+    height: 100% !important;
+}
+
+body .pagination svg {
+
+    display: none;
+}
+
+.pagination {
+
+    margin-bottom: 20px;
+
+}
+
+body .pagination .hidden .inline-flex {
+
+    display: none;
+}
+
+body .pagination .hidden {
+
+    margin-top: 10px;
+}
+
+.field_required::after {
+    content: "*";
+    color: red;
+    margin-left: 2px;
+}
+
+.circular-image-container {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.circular-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+
+.circular-image-list {
+    width: auto;
+    height: 60px;
+
+}
+
+.category-tree {
+    list-style: none;
+    padding-left: 0;
+}
+
+.category-tree li {
+    margin-left: 20px;
+}
+
+.category-tree li label {
+    margin-left: 5px;
+}
+
+.collapse .golf_club_btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.collapse .golf_club_btns button {
+    height: 50px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.event_feature_image .image {
+    max-width: 150px;
+}
+
+.event_feature_image .image img {
+    width: 130px;
+    border-radius: 50%;
+    height: 130px;
+    object-fit: cover;
+}
+
+.right-sec-bg .event__label {
+    width: 100%;
+    background: #345f89;
+    padding: 5px;
+    border-radius: 2px;
+    color: #fdfdfd;
+}
+
+/*custom input file*/
+body .custom-file-input {
+    color: transparent;
+    opacity: 1;
+
+}
+
+body .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.button-color {
+
+    background: #345370 !important;
+    border: #345370 !important;
+}
+
+body div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+    border-color: #345370 !important;
+    background: #345370 !important;
+    color: #fff;
+}
+
+body .custom-file-input:focus {
+    outline: none !important;
+
+}
+
+.upload-image-section {
+    margin-top: 30px;
+}
+
+body .custom-file-input:active::before {
+    transform: scale(.9) translate(0px, 2px);
+    box-shadow: inset 4px 4px 5px 0px rgba(0, 0, 0, 0.20);
+
+}
+
+.user_listing .user__name,
+table td:not(:first-child) {
+    margin: 0;
+    word-break: break-all;
+}
